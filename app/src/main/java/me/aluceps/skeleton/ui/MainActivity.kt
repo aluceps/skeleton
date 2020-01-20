@@ -1,14 +1,17 @@
-package me.aluceps.skeleton
+package me.aluceps.skeleton.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+import me.aluceps.skeleton.R
 import me.aluceps.skeleton.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
+        DataBindingUtil.setContentView<ActivityMainBinding>(this,
+            R.layout.activity_main
+        )
     }
 }
