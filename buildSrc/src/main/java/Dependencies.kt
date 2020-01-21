@@ -17,6 +17,10 @@ object Dependencies {
         }
     }
 
+    object Timber {
+        const val common = "com.jakewharton.timber:timber:4.7.1"
+    }
+
     object Test {
         const val junit = "junit:junit:4.12"
     }

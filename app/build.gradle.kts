@@ -32,13 +32,14 @@ android {
 
 dependencies {
     implementation(fileTree("dir" to "libs", "include" to listOf("*.jar")))
-    implementation(Dependencies.Kotlin.stdlib)
 
+    implementation(Dependencies.Kotlin.stdlib)
     implementation(Dependencies.AndroidX.appcompat)
     implementation(Dependencies.AndroidX.ktx)
     implementation(Dependencies.AndroidX.recyclerview)
     implementation(Dependencies.AndroidX.constraintlayout)
     implementation(Dependencies.AndroidX.material)
+    implementation(Dependencies.Timber.common)
 
     testImplementation(Dependencies.Test.junit)
     androidTestImplementation(Dependencies.AndroidX.Test.junit)
