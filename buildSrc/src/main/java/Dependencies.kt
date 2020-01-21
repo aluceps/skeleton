@@ -7,6 +7,7 @@ object Dependencies {
         private const val version = "1.1.0"
         const val appcompat = "androidx.appcompat:appcompat:$version"
         const val ktx = "androidx.core:core-ktx:$version"
+        const val recyclerview = "androidx.recyclerview:recyclerview:$version"
         const val constraintlayout = "androidx.constraintlayout:constraintlayout:1.1.3"
         const val material = "com.google.android.material:material:1.0.0"
 
